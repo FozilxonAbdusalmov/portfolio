@@ -1,0 +1,59 @@
+.experience_conatiner {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.experience_h5 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+
+.experience_conatiner h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+
+
+}
+.experience_content{
+    padding: 0 2rem;
+    position: relative;
+}
+
+.arrow_right,
+.arrow_left {
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6751b9;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    background: #130f2a;
+    position: absolute;
+    top: 45%;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+.arrow_left,
+.arrow_right {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+
+}
+
+
+.arrow_left {
+    left: 0rem;
+
+}
+
+.arrow_right {
+    right: 0rem;
+
+}
